@@ -6,7 +6,7 @@ import numpy as np
 
 pygame.init()
 
-font=pygame.font.Font("C:\\Users\\vivsw\\OneDrive\\Desktop\\pygame\\arial.ttf",25)
+font=pygame.font.Font(".\arial.ttf",25)
 action=np.array([1,0,0])
 
 class Direction(Enum):
